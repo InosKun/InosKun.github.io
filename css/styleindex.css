@@ -5,9 +5,9 @@
     box-sizing: border-box;
   }
 
-  @font-face {
+ @font-face {
   font-family: 'Martin'; /* El nombre de la fuente que usarás en HTML */
-  src: url('/assets/Fonts/MartinRegular.ttf') format('ttf'); /* Ruta al archivo WOFF2 */
+  src: url('/assets/Fonts/MartinRegular.woff2') format('woff2'); /* Ruta al archivo WOFF2 */
   font-style: normal;
   font-weight: normal;
 }

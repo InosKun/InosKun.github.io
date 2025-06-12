@@ -5,6 +5,13 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: 'Martin'; /* El nombre de la fuente que usarás en HTML */
+  src: url('/assets/Fonts/MartinRegular.woff2') format('woff2'); /* Ruta al archivo WOFF2 */
+  font-style: normal;
+  font-weight: normal;
+}
+
 body {
     min-height: 100vh;
     background-image: url("/assets/Portfolio/FooterColor.png");
