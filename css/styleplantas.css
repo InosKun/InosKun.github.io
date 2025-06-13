@@ -394,6 +394,7 @@ textarea:focus-within{
 
 #tooltip {
   display: flex;
+  width: 90%;
   flex-direction: column;
   text-align: center;
   margin: 4%;
@@ -406,6 +407,11 @@ textarea:focus-within{
 
 #tooltipText {
   width: 100%
+  }
+
+  .esencial{
+    width: 100%;
+    height: 100%;
   }
 
 /* Footer */
@@ -515,10 +521,10 @@ footer a {
   
   #tooltipText {
     position: absolute;
-    height: 40%;
-    width: 80%;
-    left: 50%;
-    bottom: -45%;
+    height: 60%;
+    width: 30%;
+    left: 20%;
+    bottom: 10%;
     transform: translate(-50%);
     background-color: #ffff;
     color: #fcb655;
@@ -528,6 +534,11 @@ footer a {
     opacity: 0;
     transition: opacity 0.5s ease;
     box-shadow: 0 0.25rem 0.93rem 0 #00000026;
+  }
+
+  .esencial{
+    width: 100%;
+    height: 100%;
   }
   
   #tooltip:hover #tooltipText{
@@ -648,8 +659,8 @@ footer h1{
 
 #tooltipText {
   position: absolute;
-  width: 30%;
-  height: 50%;
+  width: 20%;
+  height: 46%;
   left: 20%;
   bottom: 15%;
   padding: 2%;
