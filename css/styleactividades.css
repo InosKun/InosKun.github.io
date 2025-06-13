@@ -201,32 +201,16 @@ body {
 }
 
 .slider-imagenes {
-  position: relative;
-  width: 90%;
-  margin: 0 auto;
-  mix-blend-mode: multiply;
-}
-
-.flor-act {
-  position: absolute;
-  object-fit: cover;
-  width: 100vw;
-  right: 0;
+  width: 100%;
 }
 
 .imagenes-carrusel {
   display: flex;
-  aspect-ratio: 9/14;
-  overflow: auto;
-  scroll-snap-type: x mandatory;
-  scroll-behavior: smooth;
-  border-radius: 15px;
+  width: 100%;
 }
 
 .imagenes-carrusel img {
-  flex:1 0 100%;
-  scroll-snap-align: start;
-  object-fit: cover;
+  justify-content: center;
 }
 
 .slider-nav {
@@ -252,10 +236,12 @@ body {
   transition: opacity ease 250ms;
 }
 
-.slider-imagenes h1{
-  color:#1f951b;
+.slider-imagenes p{
+  color:#c8017f;
+  font-family: 'Martin';
   font-size: 65px;
   text-align: center;
+  padding-top: 2%;
 }
 
 section .animate{
@@ -277,154 +263,11 @@ section.show-animate .animate {
   right: 5%;
 }
 
-@keyframes pulse {
-10% {
-  transform: translateY(25%);
-}
-20% {
-    transform: translateY(0);
-}
-
-30% {
-      transform: translateY(25%);
-}
-40% {
-  transform: translateY(0);
-}
-50% {
-    transform: translateY(25%);
-}
-
-60% {
-      transform: translateY(0);
-}
-70% {
-  transform: translateY(25%);
-}
-80% {
-    transform: translateY(0);
-}
-
-90% {
-      transform: translateY(25%);
-}
-}
 
 .bio section {
   display: flex;
   overflow: hidden;
 }
-
-/* Carrusel */
-
-.sec-tips {
-  height: 100vh;
-  flex-direction: column;
-  align-items: center;
-  padding: 8% 0;
-  background-color:#ffff;
-}
-
-.sec-tips .animate {
-  transform: scale(.7);
-}
-
-.sec-tips.show-animate .animate {
-  transform: scale(1);
-}
-
-.contenedor-carrusel {
-  position: relative;
-  width: 100%;
-}
-
-.contenedor-carrusel .slide-button{
-  position: absolute;
-  top: 115%;
-  height: 50px;
-  width: 50px;
-  color: #ffff;
-  background:#3D5500;
-  border: none;
-  outline: none;
-
-  cursor: pointer;
-  border-radius: 50%;
-} 
-
-.contenedor-carrusel .slide-button:hover {
-  color: rgb(53, 96, 30);
-  background-color: #ffff;
-  box-shadow: 0 0.25rem 0.93rem 0 #00000026;
-  transition: box-shadow, transform, 0.5s;
-}
-
-.contenedor-carrusel .slide-button#btn-iz {
-  left: 38%;
-}
-
-.contenedor-carrusel .slide-button#btn-der {
-  right: 38%;
-}
-
-.carrusel .lista-carrusel{
-  padding: 2% 10% 2% 10%;
-  display: grid;
-  gap: 28px;
-  overflow-x: auto;
-  scrollbar-width: none;
-  grid-template-columns: repeat(6, 1fr);
-}
-
-.carrusel .lista-carrusel::-webkit-scrollbar {
-  display: none;
-}
-
-.carrusel .lista-carrusel .caja-carrusel {
-  width: 280px;
-  height: 340px;
-  background-color: rgb(255, 255, 255);
-  box-shadow: 0 0.25rem 0.93rem 0 #00000026;
-  border-radius: 15px;
-}
-
-.sec-tips h1{
-  color: #1f951b;
-  font-size: 65px;
-  text-align: center;
-}
-
-.sec-tips p{
-  color: rgb(120, 165, 96);
-  width: 100%;
-  padding: 2%;
-  text-align: center;
-  font-size: 20px;
-}
-
-.caja-carrusel h1{
-  color: #1f951b;
-  font-size: 20px;
-  text-align: center;
-  padding: 2% 4%;
-  text-align: left;
-}
-
-.caja-carrusel p{
-  color: rgb(120, 165, 96);
-  width: 100%;
-  padding: 2%;
-  text-align: center;
-  font-size: 16px;
-  padding: 4%;
-  text-align: left;
-}
-
-.caja-carrusel img {
-  width: 40%;
-  padding: 4%;
-}
-
 
 /* Footer */
 
@@ -461,9 +304,6 @@ color: #ffffff;
 }
 
 @media (min-width: 600px) {
-  .imagenes-carrusel {
-    aspect-ratio: 21/9;
-  }
 
   .contenedor-imagenes {
     padding: 2%;
@@ -473,70 +313,16 @@ color: #ffffff;
     bottom: 1%;
   }
 
-  #img1 {
-    content: url(../assets/CharlasWeb.jpg);
-  }
-
-  #img2 {
-    content: url(../assets/CharlasWeb2.jpg);
-  }
-
-  .sec-tips{
-    height: 98vh;
-  }
-
-  .sec-tips h1{
-    font-size: 45px;
-  }
-
-  .sec-tips p{
-    font-size: 15px;
-  }
-
-  .caja-carrusel h1{
-    font-size: 25px;
-    padding: 2% 4%;
-  }
-  
-  .caja-carrusel p{
-    font-size: 17px;
-    padding: 4%;
-  }
-  
-  .caja-carrusel img {
-    width: 50%;
-    padding: 4%;
-  }
-
-  .carrusel .lista-carrusel{
-    gap: 20px;
-    
-  }
-
-  .carrusel .lista-carrusel .caja-carrusel {
-    width: 300px;
-    height: 380px;
-  }
-
-  .contenedor-carrusel .slide-button#btn-iz {
-    left: 41%;
-  }
-
-  .contenedor-carrusel .slide-button#btn-der {
-    right: 41%;
-  }
+ .imagenes-carrusel {
+  width: 80%;
+}
 
   .sec-5 {
     height: 370px;
   }
 
-  .slider-imagenes h1{
+  .slider-imagenes p{
     font-size: 45px;
-  }
-
-  .flor-act {
-    top: 10%;
-    content: url(../assets/Florecitas.png);
   }
 
   footer h1{
@@ -545,50 +331,13 @@ color: #ffffff;
 }
 
 @media (min-width: 1024px) {
-.sec-tips{
-  height: 110vh;
+
+  .imagenes-carrusel {
+  display: flex;
+  width: 35%
 }
 
-.sec-tips h1{
-  font-size: 40px;
-}
-
-.sec-tips p{
-  font-size: 12px;
-}
-
-.caja-carrusel h1{
-  font-size: 25px;
-  padding: 2% 4%;
-}
-
-.caja-carrusel p{
-  font-size: 17px;
-  padding: 4%;
-}
-
-.caja-carrusel img {
-  padding: 4%;
-}
-
-.carrusel .lista-carrusel{
-  gap: 20px;
-}
-
-.carrusel .lista-carrusel .caja-carrusel {
-  width: 325px;
-  height: 400px;
-}
-
-.contenedor-carrusel .slide-button#btn-iz {
-  left: 45%;
-}
-
-.contenedor-carrusel .slide-button#btn-der {
-  right: 45%;
-}
-
-.slider-imagenes h1{
+.slider-imagenes p1{
   font-size: 40px;
 }
 

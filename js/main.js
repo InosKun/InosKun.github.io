@@ -136,9 +136,9 @@ var compra = document.getElementById('compra')
 
 function leftClick() {
   btn.style.left = '0'
-  document.getElementById('fondo').src="../assets/Portfolio/Yo.png";
+  document.getElementById('fondo').src="../assets/Portfolio/YoDef.png";
   header.style.backgroundColor = "#fff";
-  compra.style.backgroundColor = "#E0F2AF";
+  compra.style.backgroundColor = "#fff";
 
   const spans = document.querySelectorAll('span');
   spans.forEach((span) => {
@@ -155,7 +155,7 @@ function rightClick() {
   btn.style.left = '102px'
   document.getElementById('fondo').src="../assets/Portfolio/YoChulo.png";  
   header.style.backgroundColor = "#fff";
-  compra.style.backgroundColor = "#FCE698";
+  compra.style.backgroundColor = "#fff";
   
   const spans = document.querySelectorAll('span');
 spans.forEach((span) => {
