@@ -209,7 +209,8 @@
 }
 
 .estanteria {
-  display: none;
+  display: block;
+  width: 100%;
 }
 
 .flecha-plantas{
@@ -450,6 +451,14 @@ color: #ffffff;
 
 footer p{
 color: #ffffff;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+.Twitter {
+  width: 15px;
 }
 
 @media (min-width: 600px) {
