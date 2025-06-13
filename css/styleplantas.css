@@ -487,7 +487,7 @@ footer a {
   .planta-1 {
     position: absolute;
     width: 14%;
-    right: 15%;
+    right: 25%;
     bottom: 15%;
   }
   
@@ -539,8 +539,8 @@ footer a {
 
 .int-contenedor {
   position: absolute;
-  bottom: 2%;
-  right: 36%;
+  bottom: 15%;
+  right: 5%;
   visibility: visible;
 }
 
