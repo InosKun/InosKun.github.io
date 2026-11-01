@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/InosKun/InosKun.github.io",
+  "branch": "main",
+  "checked_commit": "c9d7707538fc7f0bde28132d76ab36bdeba179be",
+  "domain": "tinyearss.com",
+  "legacy_routes": {
+    "pages/nosotros.html": "/portfolio/",
+    "pages/hospital.html": "/sketches/",
+    "pages/donar.html": "/about/",
+    "pages/actividades.html": "/contact/"
+  }
+}

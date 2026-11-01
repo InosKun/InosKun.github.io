@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tinyearss.com/sitemap.xml

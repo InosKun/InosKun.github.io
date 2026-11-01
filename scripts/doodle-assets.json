@@ -1,0 +1,72 @@
+{
+  "loop": {
+    "source": "IMG_3238.PNG",
+    "width": 628,
+    "height": 720
+  },
+  "rays": {
+    "source": "IMG_3239.PNG",
+    "width": 720,
+    "height": 538
+  },
+  "zigzag": {
+    "source": "IMG_3240.PNG",
+    "width": 720,
+    "height": 476
+  },
+  "scallop": {
+    "source": "IMG_3241.PNG",
+    "width": 720,
+    "height": 469
+  },
+  "moon": {
+    "source": "IMG_3242.PNG",
+    "width": 720,
+    "height": 690
+  },
+  "heart": {
+    "source": "IMG_3243.PNG",
+    "width": 415,
+    "height": 720
+  },
+  "burst": {
+    "source": "IMG_3244.PNG",
+    "width": 720,
+    "height": 716
+  },
+  "spark": {
+    "source": "IMG_3245.PNG",
+    "width": 528,
+    "height": 720
+  },
+  "flower": {
+    "source": "IMG_3246.PNG",
+    "width": 585,
+    "height": 720
+  },
+  "wave": {
+    "source": "IMG_3248.PNG",
+    "width": 960,
+    "height": 125
+  },
+  "cross": {
+    "source": "IMG_3249.PNG",
+    "width": 720,
+    "height": 720
+  },
+  "arrows": {
+    "source": "IMG_3250.PNG",
+    "width": 720,
+    "height": 659
+  },
+  "scribble": {
+    "source": "IMG_3251.PNG",
+    "width": 720,
+    "height": 647
+  },
+  "arches": {
+    "source": "IMG_3252.PNG",
+    "width": 720,
+    "height": 617
+  }
+}
