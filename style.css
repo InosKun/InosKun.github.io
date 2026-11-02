@@ -260,7 +260,7 @@ body.dark .site-header{color:var(--cream);--focus-ink:var(--yellow)}
 .notes-heart{width:42px;transform:rotate(18deg) scaleX(-1)}
 .process-row .process-doodle{width:125px;transform:rotate(168deg) scaleX(-1)}
 .reel-page{position:relative}
-.reel-margin-doodle{position:absolute;left:var(--pad);bottom:16px;width:82px;height:54px;transform:rotate(-18deg) scaleX(-1)}
+.reel-margin-doodle{position:absolute;left:var(--pad);bottom:16px;width:82px;height:54px;transform:rotate(-50deg) scaleX(-1)}
 .contact-heart{width:60px}
 .contact-rays{width:145px;transform:rotate(-13deg) scaleX(-1)}
 .contact-margin-doodle{width:100px;margin:60px 0 0 auto;transform:rotate(-28deg) scaleX(-1)}
