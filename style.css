@@ -176,7 +176,7 @@ body.dark .site-header{color:var(--cream);--focus-ink:var(--yellow)}
 /* The artist's painted doodles occupy their own space, clear of text and work. */
 .doodle{display:block;height:auto;object-fit:contain;pointer-events:none;user-select:none;flex-shrink:0}
 .selected-visual{padding:25px}
-.reel-heading-doodle{width:clamp(130px,14vw,180px);max-height:135px;align-self:center;margin-right:24px;transform:rotate(-12deg) scaleX(-1)}
+.reel-heading-doodle{width:clamp(130px,14vw,180px);max-height:135px;align-self:center;margin-right:24px;transform:rotate(40deg) scaleX(-1)}
 .sketch-heading-doodle{width:clamp(145px,16vw,205px);max-height:140px;align-self:center;transform:rotate(12deg) scaleX(-1)}
 @media(max-width:900px){
   .home-reel-heading .reel-heading-doodle{width:140px;margin:24px 12px 0 auto}
@@ -210,7 +210,7 @@ body.dark .site-header{color:var(--cream);--focus-ink:var(--yellow)}
 .process-row .process-doodle{width:100px;transform:rotate(-12deg)}
 .contact-doodles{display:flex;align-items:center;gap:40px;margin-top:35px;padding-left:15px}
 .contact-heart{width:68px;transform:rotate(-12deg)}
-.contact-rays{width:120px;transform:rotate(12deg)}
+.contact-rays{width:120px;transform:rotate(180deg)}
 .doodle-drift{animation:doodle-drift 8s ease-in-out infinite}
 .notes-flower,.contact-heart{animation-delay:-3s}
 @keyframes doodle-drift{0%,100%{translate:0 0}50%{translate:0 -6px}}
@@ -260,7 +260,7 @@ body.dark .site-header{color:var(--cream);--focus-ink:var(--yellow)}
 .notes-heart{width:42px;transform:rotate(18deg) scaleX(-1)}
 .process-row .process-doodle{width:125px;transform:rotate(168deg) scaleX(-1)}
 .reel-page{position:relative}
-.reel-margin-doodle{position:absolute;left:var(--pad);bottom:16px;width:82px;height:54px;transform:rotate(-50deg) scaleX(-1)}
+.reel-margin-doodle{position:absolute;left:var(--pad);bottom:16px;width:82px;height:54px;transform:rotate(-120deg) scaleX(-1)}
 .contact-heart{width:60px}
 .contact-rays{width:145px;transform:rotate(-13deg) scaleX(-1)}
 .contact-margin-doodle{width:100px;margin:60px 0 0 auto;transform:rotate(-28deg) scaleX(-1)}
